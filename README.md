@@ -19,30 +19,30 @@ Installation
 
 Clone the repository
 
-bashgit clone https://github.com/yourusername/bidirectional-clickhouse-tool.git
-cd bidirectional-clickhouse-tool
+git clone (https://github.com/manya-s13/ingestionTool.git)
+cd ingestionTool
 
 Install backend dependencies
 
-bashcd backend
+cd backend
 npm install
 
 Install frontend dependencies
 
-bashcd ../frontend
+cd ../frontend
 npm install
 
 Running the Application
 
 Start the backend server
 
-bashcd backend
+cd backend
 npm start
 
 Start the frontend development server
 
-bashcd frontend
-npm start
+cd frontend
+npm run dev
 
-Access the application at http://localhost:3000
+Access the application at http://localhost:5000
 
